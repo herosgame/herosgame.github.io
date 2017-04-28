@@ -8,6 +8,8 @@ subtitle:
 description:
 author: HerosGame
 language:
+- zh-CN
+- en
 timezone:
 
 # URL
@@ -69,6 +71,6 @@ theme: hueman
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  reop: https://github.com/herosgame/herosgame.github.io.git
+  repository: git@github-herosgame:herosgame/herosgame.github.io.git
   branch: master
   message: "Site updated: {{ now('YYYY-MM-DD HH:mm:ss') }}"
